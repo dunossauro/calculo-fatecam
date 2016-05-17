@@ -1,2 +1,2 @@
-# cauculo-fatecam
-Programa de Cauculo Prof. MARIANA GODOY
+# Cálculo-fatecam
+Programa de Cálculo Prof. MARIANA GODOY

@@ -1,0 +1,16 @@
+{% include 'main.tpl' %}
+
+<h1>{{titulo}}</h1>
+
+<form method="POST" action="/2grau" class="coisa">
+    <div>
+        {{ form.a.label }}&nbsp;&nbsp;&nbsp;&nbsp;    {{ form.a(class_="formcadastro") }}
+      </br>
+        {{ form.b.label }}&nbsp;&nbsp;&nbsp; {{ form.b(class_="formcadastro") }}
+      </br>
+        {{ form.c.label }}&nbsp;&nbsp;&nbsp; {{ form.c(class_="formcadastro") }}
+     </br>
+    {{ form.butt(class_="btn btn-primary formbtn") }}
+    </div>
+</form>
+</div>
